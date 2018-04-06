@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>LiveGames - EIF</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+	<script type="text/javascript">
+		(function(l,i,v,e,t,c,h){
+		l['LiveGamesObject']=t;l[t]=l[t]||function(){(l[t].q=l[t].q||[]).push(arguments)},
+		l[t].l=1*new Date();c=i.createElement(v),h=i.getElementsByTagName(v)[0];
+		c.async=1;c.src=e;h.parentNode.insertBefore(c,h)
+		})(window,document,'script','//embed.livegames.io/e-if.js','lg');
+		if(lg){
+			lg('sign', 'AA.BB.CC');
+			lg('bgColor', '000');
+			// lg('debug', true);
+		}
+	</script>
+</head>
+<body>
+	<!--
+		If this div is not created, it will be automatically append under the body.
+	-->
+	<div id="liveGamesRoot"></div>
+</body>
+</html>
